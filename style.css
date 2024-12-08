@@ -1,0 +1,128 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about, #experience, #contact {
+    background-color: #f4f4f4;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Expérience */
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.experience-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Formulaire de contact */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d8bf2;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+a{
+    color:rgb(0, 12, 249);
+}
+a:hover{
+    color: red;
+}
