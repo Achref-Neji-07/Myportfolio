@@ -1,0 +1,216 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about, #experience, #contact {
+    background-color: #f4f4f4;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Expérience */
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.experience-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Formulaire de contact */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d8bf2;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+a{
+    color:rgb(0, 12, 249);
+}
+a:hover{
+    color: red;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.pagination a {
+    color: #2196F3;
+    padding: 8px 16px;
+    margin: 0 5px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+/* Section Portfolio */
+#portfolio {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Conteneur des boîtes */
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Boîte individuelle */
+.portfolio-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.portfolio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Bouton */
+.btn {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0d8bf2;
+}
